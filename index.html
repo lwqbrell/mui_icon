@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<script src="js/iconfont.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+		<style type="text/css">
+			.icon {
+				width: 1.5em;
+				height: 1.5em;
+				vertical-align: -0.4em;
+				overflow: hidden;
+			}
+			.my-icon {
+				float: left;
+				width: 20%;
+				text-align: center;
+				background: white;
+				padding-top: 10px;
+			}
+			.top-icon {
+				margin-top: 10px;
+			}
+			.mui-bar-nav {
+				background: linear-gradient(to right, #ff8370, #ff5151);
+			}
+			.mui-title{
+				color: white;
+			}
+			.mui-active > .icon-title {
+				color: red !important;
+			}
+			.icon-title {
+				margin-bottom: 0;
+				font-size: 0.5em;
+			}
+			.mui-tab-item{
+				padding-top: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">自定义图标</h1>
+		</header>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item mui-active">
+				<svg class="icon" aria-hidden="true">
+				  <use xlink:href="#icon-shouye"></use>
+				</svg>
+				<p class="icon-title">首页</p>
+			</a>
+			<a class="mui-tab-item">
+				<svg class="icon" aria-hidden="true">
+				  <use xlink:href="#icon-sousuo"></use>
+				</svg>
+				<p class="icon-title">搜索</p>
+			</a>
+			<a class="mui-tab-item">
+				<svg class="icon" aria-hidden="true">
+				  <use xlink:href="#icon-xingxing1"></use>
+				</svg>
+				<p class="icon-title">推荐</p>
+			</a>
+			<a class="mui-tab-item">
+				<svg class="icon" aria-hidden="true">
+				  <use xlink:href="#icon-home"></use>
+				</svg>
+				<p class="icon-title">我的</p>
+			</a>
+		</nav>
+
+		<div class="mui-content">
+			<div class="top-icon">
+				<div class="my-icon">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#icon-apple-and-pear"></use>
+					</svg>
+					<p>美食</p>
+				</div>
+				<div class="my-icon">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#icon-nanzhuang"></use>
+					</svg>
+					<p>男装</p>
+				</div>
+				<div class="my-icon">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#icon-meizhuang"></use>
+					</svg>
+					<p>美妆</p>
+				</div>
+				<div class="my-icon">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#icon-nvzhuang"></use>
+					</svg>
+					<p>女装</p>
+				</div>
+				<div class="my-icon">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#icon-canju"></use>
+					</svg>
+					<p>母婴</p>
+				</div>
+			</div>
+
+		</div>
+		
+	</body>
+</html>
